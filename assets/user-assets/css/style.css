@@ -40,6 +40,7 @@ header#header {
 }
 .create {
     padding-top: 50px;
+        padding-bottom: 50px;
 }
 .create-header {
     background: #5da4d2;
@@ -624,7 +625,7 @@ footer{
     margin-bottom: 15px;
 }
 .review-systems-name-two{
-    font-size: 35px;
+    font-size: 21px;
     font-weight: 600;
 }
 .review-systems-link.two{
@@ -680,7 +681,7 @@ a.review-systems-link-two.img {
 }
 .img-course{
     background: #e6e6e6;
-    width: 50%;
+    width: 62%;
     margin: 0 auto;
     padding: 20px;
     border-radius: 100%;
@@ -734,7 +735,7 @@ a {
     border: 0px;
 }
 .cma-text-t{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 .col-md-10.contact_Gleim label{
     width: 200px;
@@ -885,18 +886,20 @@ h3.Shipping-Address  button{
     border: 1px solid #ccc;
     width: 90%; 
     margin: 0 auto;
-	display: none;
+    display: none;
 }
 .display-none-text p{
     text-align: left;
     padding: 5px 10px;
     border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    color: #404040;
 }
 .menu.two{
-	width: 100%;
+    width: 100%;
 }
 .menu.two .menu-ul.one{
-	width: 100%;
+    width: 100%;
 }
 .menu.two .menu-ul.one button{
     background: transparent;
@@ -909,18 +912,18 @@ h3.Shipping-Address  button{
 
 }
 .display-none-text p input{
-	margin-right: 15px;
-	margin-left: 15px;
-	margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 .cma-pages.Demo_Mode form {
     padding: 23px 0px 5px!important;
 }
 .previous-button-text{
-	width:70%;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 25px;
+    width:70%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 .previous-button-text button{
     background: #5498d1 linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 1%, rgb(0, 125, 194) 100%);
@@ -933,7 +936,7 @@ h3.Shipping-Address  button{
     margin-left: 15px;
 }
 form.select-rigen{
-	padding: 0px !important;
+    padding: 0px !important;
 }
 .cma-pages-form.two {
     padding: 0px;
@@ -956,6 +959,9 @@ div#Demo-test-three {
 div#Demo-test-four {
     display: none;
 }
+#Demo-test-five {
+    display: none;
+}
 .content-form.col-md-12.button button {
    background: #2789a7;
     border: none;
@@ -967,6 +973,34 @@ div#Demo-test-four {
     width: 33%;
     margin: 0 auto;
 }
+ul.menu-ul.one.two {
+    margin: 5px 0px 0px;
+}
+.col-md-5.right.one {
+    float: right;
+}
+.images-Access-mina{
+    display: none;
+}
+a.review-systems-link-two.img {
+    margin-bottom: 50px;
+    height: auto;
+    border: 1px solid #137cc0;
+    padding: 10px;
+}
+.review-systems-block.single-review .col-md-2{
+    margin: 15px 0 0 150px;
+}
+.text-align-left{
+        text-align: left;
+}
+
+
+
+
+
+
+
 
 
 

@@ -17,14 +17,12 @@
 		</div>
 	</div>
 </footer>
-</div>
-
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/user-assets/js/popper.js">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/user-assets/js/math.min.js">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/user-assets/js/fontawesome.js">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/user-assets/js/josdejong.js">
-<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/user-assets/js/jquery.min.js">
-
-<script type="text/javascript" src = "<?php echo base_url()?>assets/user-assets/js/custom.js"></script>
+<script src="<?php echo base_url('assets/user-assets/js/popper.js');?>"></script>
+<script src="<?php echo base_url('assets/user-assets/js/fontawesome.js');?>"></script>
+<script src="<?php echo base_url('assets/user-assets/js/josdejong.js');?>"></script>
+<script src="<?php echo base_url('assets/user-assets/js/jquery.js');?>"></script>
+<script src="<?php echo base_url('assets/user-assets/js/bootstrap.min.js');?>"></script>
+<script src="<?php echo base_url('assets/user-assets/custom-js/custom.js');?>"></script>
 </body>
 </html>
+

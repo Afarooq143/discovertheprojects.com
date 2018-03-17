@@ -52,9 +52,9 @@ class Login extends CI_Controller{
    */
     public function logout()
 	 {
-		$sessionId=$this->session->userdata('session_id');
+		//$sessionId=$this->session->userdata('session_id');
 	    $this->session->unset_userdata('id');
-	    session_destroy();
+	    $this->session->sess_destroy();
 	    redirect(base_url(INDEX_PHP."login"));
 	 }
 

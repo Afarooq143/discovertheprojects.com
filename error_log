@@ -1,0 +1,54 @@
+[03-Mar-2018 10:18:41 UTC] PHP Fatal error:  Call to undefined method Ftc_model::deleteCourse() in /home/sajadmgr/public_html/ftc/application/controllers/Ftcinternational.php on line 181
+[03-Mar-2018 10:33:38 UTC] PHP Fatal error:  Call to undefined method Ftc_model::deleteCourse() in /home/sajadmgr/public_html/ftc/application/controllers/Ftcinternational.php on line 181
+[03-Mar-2018 17:38:48 UTC] PHP Fatal error:  Class 'My_Controller' not found in /home/sajadmgr/public_html/ftc/application/controllers/Ftcinternational.php on line 8
+[03-Mar-2018 17:40:16 UTC] PHP Fatal error:  Class 'My_Controller' not found in /home/sajadmgr/public_html/ftc/application/controllers/Ftcinternational.php on line 8
+[03-Mar-2018 17:42:47 UTC] PHP Fatal error:  Class 'My_Controller' not found in /home/sajadmgr/public_html/ftc/application/controllers/Ftcinternational.php on line 8
+[03-Mar-2018 17:44:28 UTC] PHP Fatal error:  Class 'My_Controller' not found in /home/sajadmgr/public_html/ftc/application/controllers/Ftcinternational.php on line 8
+[09-Mar-2018 04:06:45 UTC] PHP Fatal error:  Call to undefined method Ftc_model::get_all_units() in /home/sajadmgr/public_html/ftc/application/controllers/Ftcinternational.php on line 303
+[10-Mar-2018 08:25:58 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:26:32 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:26:33 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:26:34 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:26:34 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:26:34 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:26:35 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:28:17 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:28:18 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:28:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:28:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:28:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:28:19 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:29:05 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:29:06 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:29:06 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:29:06 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:29:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:29:53 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 57
+[10-Mar-2018 08:30:03 UTC] PHP Fatal error:  Call to undefined function basr_url() in /home/sajadmgr/public_html/ftc/application/views/users/include/header.php on line 14
+[10-Mar-2018 08:30:49 UTC] PHP Fatal error:  Call to undefined function basr_url() in /home/sajadmgr/public_html/ftc/application/views/users/include/header.php on line 14
+[10-Mar-2018 08:58:43 UTC] PHP Parse error:  syntax error, unexpected 'translate_uri_dashes' (T_STRING) in /home/sajadmgr/public_html/ftc/application/config/routes.php on line 55
+[10-Mar-2018 09:50:50 UTC] PHP Fatal error:  Call to a member function row() on boolean in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 50
+[10-Mar-2018 09:54:10 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 49
+[10-Mar-2018 09:54:28 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 49
+[10-Mar-2018 09:54:45 UTC] PHP Fatal error:  Call to a member function row() on null in /home/sajadmgr/public_html/ftc/application/models/Login_model.php on line 22
+[10-Mar-2018 09:58:03 UTC] PHP Fatal error:  Call to a member function row() on array in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 52
+[10-Mar-2018 12:27:50 UTC] PHP Fatal error:  Call to undefined method Ftcuser::check_admin_login() in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 143
+[10-Mar-2018 12:49:59 UTC] PHP Fatal error:  Call to a member function load() on null in /home/sajadmgr/public_html/ftc/application/views/users/Registration.php on line 1
+[10-Mar-2018 12:50:01 UTC] PHP Fatal error:  Call to a member function load() on null in /home/sajadmgr/public_html/ftc/application/views/users/Registration.php on line 1
+[10-Mar-2018 13:12:30 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/sajadmgr/public_html/ftc/application/views/users/include/header.php on line 38
+[10-Mar-2018 19:03:06 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sajadmgr/public_html/ftc/application/controllers/Ftcuser.php on line 180
+[10-Mar-2018 19:36:13 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 57
+[10-Mar-2018 19:36:14 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 57
+[10-Mar-2018 20:00:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 100
+[10-Mar-2018 20:00:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 100
+[10-Mar-2018 20:01:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 100
+[10-Mar-2018 20:01:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 100
+[10-Mar-2018 20:01:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 100
+[10-Mar-2018 20:01:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 100
+[10-Mar-2018 20:01:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 100
+[10-Mar-2018 20:09:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 92
+[10-Mar-2018 20:09:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 92
+[10-Mar-2018 20:19:05 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 78
+[10-Mar-2018 20:19:06 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 78
+[10-Mar-2018 20:44:03 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 72
+[10-Mar-2018 20:44:03 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sajadmgr/public_html/ftc/application/views/users/unit_view.php on line 72
