@@ -995,12 +995,52 @@ a.review-systems-link-two.img {
         text-align: left;
 }
 
+.Cancel-next.External-f{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.profile {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 89%;
+    background: #d8d6d6;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    border: 3px solid #137cc0;
+}
+.profile-icon button{
+    border: none;
+    background: transparent;
+    margin-bottom: 10px;
+}
 
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000;
+   opacity:  0;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000;
+   opacity:  0;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #000;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #000;
+}
 
-
-
-
-
+::placeholder { /* Most modern browsers support this now. */
+   color:    #000;
+}
+.content-form input:active{
+    border: none;
+    font-size: 15px;
+}
 
 

@@ -4,10 +4,6 @@
 		<div class="rwo">
 			<div class="col-md-6">
 				<div class="cmo-heding">
-<?php 
-	print_r($category);
-?>
-
 					<h1><?php echo $this->session->userdata('course').':'. $category[0]->category_name ;?></h1>
 				</div>
 			</div>

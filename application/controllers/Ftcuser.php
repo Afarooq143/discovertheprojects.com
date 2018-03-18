@@ -227,25 +227,40 @@ public function logout()
 
   public function testprepration($id){
     $id = base64_decode($id);
-        // if(isset($_POST)){
-        //   $data['courseDetails'] = $_POST;
-        //   $this->session->set_userdata('courseDetails', $data['courseDetails']);
-        // }
+    // if(isset($_POST)){
+    //   $data['courseDetails'] = $_POST;
+    //   $this->session->set_userdata('courseDetails', $data['courseDetails']);
+    // }
 
-        // print_r($_SESSION);exit;
-        // $data['courseDetails'] = $this->session->courseDetails;
-        $data['category']       =   $this->Ftc_Front_model->get_category_master($id); 
-        //print_r($data['category']);ex 
-        $data['header']         = "users/include/main-header";
-        $data['main']           = "users/testprepration";
-        $data['footer']         = "users/include/footer";   
-        $this->load->view('users/templates.php', $data); 
+    // print_r($_SESSION);exit;
+    // $data['courseDetails'] = $this->session->courseDetails;
+    $data['category']       =   $this->Ftc_Front_model->get_category_master($id); 
+    //print_r($data['category']);ex 
+    $data['header']         = "users/include/main-header";
+    $data['main']           = "users/testprepration";
+    $data['footer']         = "users/include/footer";   
+    $this->load->view('users/templates.php', $data); 
   }
 
   public function create_session(){
-    if(isset($_POST['button'])){
-      print_r($_POST);
-    }
+    //if(isset($_POST['button'])){
+    // echo "<pre>";
+    //   print_r($_POST);
+      $resdata = $_POST;
+      if(isset($_POST['category_id'])){
+         $dataArr=array();
+        $data['allUnits'] = $this->Ftc_Front_model->get_units($resdata['category_id']); 
+        for($i=0; $i<count($data['allUnits']); $i++){
+          $dataArr[$data['allUnits'][$i]->unit.'<$><$>'.$data['allUnits'][$i]->unit_id][] = $data['allUnits'][$i];
+        }
+          $data['allunits'] = $dataArr;
+        $data['exam_details'] = $resdata;
+      }
+
+
+      //$data['exam_type']
+       // print_r($data['allUnits']);exit();
+   // }
         // if(isset($_POST)){
         //   $data['courseDetails'] = $_POST;
         //   $this->session->set_userdata('courseDetails', $data['courseDetails']);
@@ -260,5 +275,12 @@ public function logout()
         $data['footer']         = "users/include/footer";   
         $this->load->view('users/templates.php', $data); 
   }
+
+  public function create_test(){
+    echo '<pre>';
+    print_r($_POST);exit;
+  }
+
+ 
 
 }

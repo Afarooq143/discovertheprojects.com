@@ -176,4 +176,13 @@ class Ftc_Front_model extends CI_Model
             $query = $this->db->get();
             return $query->result();
         }
+
+         function get_units($id){
+            $this->db->select('Units.id AS unit_id, Units.unit, Subunits.id AS subunit_id, Subunits.subunit_name');
+            $this->db->from('ftc_units_master  Units, ftc_sub_units_master  Subunits');
+            $this->db->where('FIND_IN_SET(Subunits.id, Units.subunits_id)');
+            $this->db->where('Units.category_id', $id);
+            $query = $this->db->get();
+            return $query->result();
+    }
 }

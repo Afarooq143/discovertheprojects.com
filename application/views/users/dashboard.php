@@ -43,6 +43,7 @@
 						<div class="panel panel-primary">
 							<div class="panel-heading">
 								<?php
+								//print_r($_SESSION);
 								//print_r($this->session->userdata()); 
 									echo $this->session->userdata('course');
 								?>
@@ -50,7 +51,6 @@
 							<div class="panel-body">
 	         					<div class="review-systems-block single-review">
 	         						<?php 
-	         						print_r($categories);
 	         						for($i=0; $i<count($categories); $i++){
 
 	         						?>

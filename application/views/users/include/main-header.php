@@ -31,17 +31,34 @@
 					<div class="menu two" style="padding-top: 15px;">
 						<ul class="menu-ul one two">
 							<li><a href="#"><i class="fas fa-home" style="margin-right: 5px;"></i>Home</a></li>
+							<li><a href="#"><i class="fas fa-cog" style="margin-right: 5px;"></i>Services</a></li>
 							<li><a href="#"><i class="fas fa-cart-plus" style="margin-right: 5px;"></i>Cart</a></li>
-							<li><a href="#"><i class="fas fa-cog" style="margin-right: 5px;"></i>services</a></li>
-							<li><a href="<?php echo base_url('index.php/ftcinternational');?>"><i class="fas fa-sign-in-alt" style="margin-right: 5px;"></i>Admin Login</a></li>
-							<?php if($this->session->userdata('email')){?>
+							<?php if(!$this->session->userdata('user_id')){?>
+								<li><a href="<?php echo base_url('index.php/ftcinternational');?>"><i class="fas fa-sign-in-alt" style="margin-right: 5px;"></i>Admin Login</a></li>
+							<?php } ?>
+							<?php if($this->session->userdata('user_id')){?>
 								<button><i class="fas fa-user" style="font-size: 25px;"></i></button>
-
-								<a href="<?php echo base_url('index.php/ftcuser/logout');?>"><i class="fas fa-sign-in-alt" style="margin-right: 5px;"></i>Logout</a>
 							<?php } ?>
 						</ul>
 
-						<?php if($this->session->userdata('email')){?>
+						<?php if($this->session->userdata('user_id')){?>
+						<div class="profile">
+							<div class="">
+								<div class="profile-icon">
+									<button style=""><i class="fas fa-user" style="font-size: 35px;"></i></button>
+								</div>
+								<button class="profile-button" style="border: none;background: transparent;"> 
+									<a href="#" class="btn btn-info btn-md">
+										 Profile
+									</a>
+									</button>
+								<button class="loaut" style="border: none;background: transparent;">
+									<a href="<?php echo base_url('index.php/ftcuser/logout');?>" class="btn btn-info btn-md">
+										 Log out
+									</a>
+								</button>
+							</div>
+						</div>
 						<div class="col-md-5 right one">
 							<div class="images-menu"><a href="#"><img src="<?php echo base_url();?>assets/user-assets/images/menu.png"></a></div>
 							<!-- <i class="far fa-bars"></i>
